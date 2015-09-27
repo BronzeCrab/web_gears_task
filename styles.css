@@ -1,0 +1,27 @@
+
+.enable {
+	-webkit-animation-name: dissapp; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+	animation-name: dissapp;
+	animation-duration: 3s;
+	opacity: 0;
+}
+#par {
+	opacity: 0;
+}
+@-webkit-keyframes dissapp {
+    0%   {opacity: 1;}
+    25%  {opacity: 0.75;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.25;}
+    100% {opacity: 0;}
+}
+
+/* Standard syntax */
+@keyframes dissapp {
+    0%   {opacity: 1;}
+    25%  {opacity: 0.75;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.25;}
+    100% {opacity: 0;}
+}
