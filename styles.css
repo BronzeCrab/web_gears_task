@@ -1,7 +1,6 @@
-
 .enable {
 	-webkit-animation-name: dissapp; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
 	animation-name: dissapp;
 	animation-duration: 3s;
 	opacity: 0;
