@@ -114,6 +114,9 @@ dlist.setLastNode(node2)
 # inserting node number 3 between 1 and 2 nodes, so schema
 # will be like  None <-- 1 --> <-- 3 --> <-- 2 --> None
 # to test insert function
+print "Created two nodes:"
+print node1
+print node2
 print "after inserting node number 3 after node 1:"
 node3 = Node(3)
 insertAfter(dlist, node1, node3)
@@ -124,7 +127,7 @@ print "after deleting node number 3:"
 removeNode(dlist, node3)
 print "Node 1:"
 print node1
-print "Nide 2:"
+print "Node 2:"
 print node2
 print "Iterating trought dlist of 2 nodes:"
 for x in iterate(dlist, dlist.getFirstNode()):
